@@ -43,7 +43,7 @@ export default function Login() {
           </div>
           <button
             type="submit"
-            className="w-full py-2 px-4 bg-[#0B4157] text-white font-semibold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#0B4157]"
+            className="w-full py-2 px-4 bg-[#0B4157] text-white font-semibold rounded-md hover:bg-[#12171a] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#0B4157]"
           >
             Login
           </button>

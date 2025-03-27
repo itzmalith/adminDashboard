@@ -301,7 +301,7 @@ export default function Dashboard(): JSX.Element {
                 />
                 <button
                   onClick={handleAddGlobalService}
-                  className="px-6 py-2 bg-[#0B4157] text-white rounded-md hover:bg-blue-700 opacity-90"
+                  className="px-6 py-2 bg-[#0B4157] text-white rounded-md hover:bg-[#12171a] opacity-90"
                 >
                   Add Service
                 </button>
@@ -434,7 +434,7 @@ export default function Dashboard(): JSX.Element {
                       />
                       <button
                         onClick={() => handlePackagePriceChange(pkg.id)}
-                        className="py-1 px-3 bg-[#0B4157] text-white rounded hover:bg-blue-700"
+                        className="py-1 px-3 bg-[#0B4157] text-white rounded hover:bg-[#12171a]"
                       >
                         Update Price
                       </button>
@@ -453,7 +453,7 @@ export default function Dashboard(): JSX.Element {
                     />
                     <button
                       onClick={() => handleAddService(pkg.id)}
-                      className="py-1 px-3 bg-[#0B4157] text-white rounded hover:bg-blue-700"
+                      className="py-1 px-3 bg-[#0B4157] text-white rounded hover:bg-[#12171a]"
                     >
                       Add
                     </button>
